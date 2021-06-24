@@ -1,0 +1,22 @@
+{
+    "name": "amage/module-sitemap",
+    "description": "Add/Remove custom urls from sitempa",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ankur",
+            "email": "reaction.ankur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amage\\Sitemap\\": ""
+        }
+    }
+}
