@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="sitemap_custom" sortOrder="999" translate="label">
+            <label>Amage</label>
+        </tab>
+        <section id="custom" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>Add/Remove Urls From Sitemap</label>
+            <tab>sitemap_custom</tab>
+            <resource>Amage_Sitemap::custom_url</resource>
+            <group id="url" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>Add Urls</label>
+                <field id="custom_url" translate="label comment tooltip" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Custom Url</label>
+                    <frontend_model>Amage\Sitemap\Block\Adminhtml\Config\Form\Field\Sitemap</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <comment>Please save only url path not the complete url, for example http://domain.com/a/b/c then save only a/b/c</comment>
+                </field>
+            </group>
+            <group id="exclude" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>Exclude Urls from Sitemap</label>
+                <field id="remove_urls" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="11" translate="label" type="textarea">
+                    <label>Excluded Urls</label>
+                    <comment>Please save every Url in next line and please save only url path not the complete url, for example http://domain.com/a/b/c then save only a/b/c</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

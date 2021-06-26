@@ -1,0 +1,11 @@
+.adminhtml-email_template-preview .cms-revision-preview {
+  padding-top: 56.25%;
+  position: relative;
+}
+.adminhtml-email_template-preview .cms-revision-preview #preview_iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
