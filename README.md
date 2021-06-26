@@ -1,5 +1,5 @@
 
-# Module Amage Cms
+# Module Amage Sitemap
 
     ``amage/module-sitemap``
 
