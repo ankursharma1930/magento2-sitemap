@@ -26,4 +26,8 @@ Import CMS Blocks and Pages
 
 ## Specifications
 
- - Controller
+ - Tested only on Mgento version 2.4.x and not tested on lower versions
+ - Not Tested on multi store website
+
+ - ![Configuration-Settings-Stores-Magento-Admin](https://user-images.githubusercontent.com/16528097/123513456-fd74b280-d6aa-11eb-831d-7d1f02d0d442.png)
+
