@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-Import CMS Blocks and Pages
+Add/Remove the URLs from sitemap easily
 
 ## Installation
 \* = in production please use the `--keep-generated` option
