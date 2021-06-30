@@ -9,7 +9,6 @@
             "email": "ankur.ank1230@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "files": [
